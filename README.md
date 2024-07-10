@@ -1,16 +1,40 @@
-# pezhan
+## Flutter Intensive Club - Food Delivery App(Pezhan)
 
-A new Flutter project.
+This project is from FIC Batch 18 - 
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+Before the installation part, clone the repository first by running this command :
+```sh
+git clone https://github.com/AchmadRijalu/pezhan.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Make sure already installed :
+Dart Version : 3.4.3 
+Flutter : 3.22.2 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
+Make sure you are already installed dart minimum SDK 3.4.3 in your environment, and Flutter 3.22.2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Check _Flutter Doctor_ Command on terminal first.
+
+```sh
+flutter doctor
+```
+
+Then
+```sh
+Flutter pub get
+```
+to gets all the dependencies listed in the pubspec.yaml file
+
+
+After running all the command above, the Flutter Application is ready.
+
+This Application have 3 roles:
+- Buyer
+- Restaurant
+- Driver
+
+Features:
+- Coming Soon
